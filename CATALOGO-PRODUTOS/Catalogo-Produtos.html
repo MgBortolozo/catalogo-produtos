@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogo-produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Varejo Produtos</h1>
+    <h1>Catálogo Produtos</h1>
+
+    <form>
+        <label for="filtro">Pesquisar pela categoria</label>
+        <input type="text" name="filtro" id="filtro">
+        <button onclick="mostrarCatalogoProdutos(event)">Pesquisar</button>
+    </form>
+
+    <br>
+
+    <div class="catalogo" id="div-catalogo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
